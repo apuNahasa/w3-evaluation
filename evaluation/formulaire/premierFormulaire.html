@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon premier formulaire</title>
+	</head>
+    <body>
+    	<h1>Formulaire:</h1>
+    	<div class="bloc">
+    		<form action= "traitement.php"  method="post">    			
+    		
+                <div>   
+                    <label >Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" size="30">
+                </div></br> 
+            
+
+    			<div>	
+    				<label for="password">Password</label>
+    				<input type="password" name="password" id="passwrod" placeholder="Password" size="30">
+    			</div></br>	
+
+    			
+
+				<div>
+    				<label>Adresse</label>
+    				<input type="text" id="adresse" name="adresse" placeholder="1234 Main street" size="30" maxlength="30">
+    			</div></br>		
+    	    			
+    			<div>
+                    <label>Adresse2</label>
+                    <input type="text" id="adresse2" name="adresse2"  placeholder="appartment,studio,floor.." size="30" maxlength="30">
+                </div></br> 
+
+                <div>
+                    <label>City</label>
+                    <input type="text" id="city" name="city" size="30">
+                </div></br>    
+
+                <div>
+                    <label>State</label>
+                    <select id="monselect">
+                        <option value="valeur1">Californie</option> 
+                        <option value="valeur2">Texas</option>
+                        <option value="valeur3">New-York</option>
+                    </select>
+                </div></br>
+   
+
+            	<div>
+    				<label>Zip</label>
+    				<input type="file" name="MyFile" id="file">
+            	</div></br>
+                
+                
+                <div>
+                    <label>Check me out</label>
+                    <input type="checkbox" id="ckeck" >
+                </div></br>
+
+
+           		<input type="submit" value="Sign">
+
+    		</form>
+    	</div>
+    </body>
+</html>

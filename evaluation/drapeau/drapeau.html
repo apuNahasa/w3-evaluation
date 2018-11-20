@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8">
+        <title>Mon drapeau </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+        <canvas id="dessin" width="400" height="400"></canvas>
+        <script>
+            var moncanvas=document.getElementById('dessin');//piverture nouveau fichier comme dans paint variable moncanvas
+            var ctx= moncanvas.getContext('2d');//selection du stylo,vaiable ctx
+            
+
+            ctx.fillStyle="red";
+            ctx.fillRect(20,30,300,200);
+            ctx.fillStyle="white";
+            ctx.fillRect(0,0,170,120);
+            ctx.fillStyle="red";
+            ctx.fillRect(80,50,20,50);
+            ctx.fillStyle="red";
+            ctx.fillRect(65,65,50,20);
+
+        </script>
+
+    </body>
+</html

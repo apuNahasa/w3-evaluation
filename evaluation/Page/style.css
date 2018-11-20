@@ -1,0 +1,57 @@
+#cont1{
+	display:flex;
+	flex-direction:column;
+
+
+}
+#cont2{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	background-color: #ffbad4;
+	height:100px;
+}
+#cont3{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	background-color: #c1bec3;
+	height:100px;
+}
+#cont4{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	background-color:#fff2e2;
+	height:100px;
+}
+.paraA1{
+	background-color: #c0e7ff;
+
+}
+.paraA2{
+	background-color: #E0CDC5;
+}
+.paraA3{
+	background-color: #ffd131;
+}
+.paraB1{
+	background-color: #d1a3ad;
+}
+.paraB2{
+	background-color: #FFAE19;
+}
+.paraC11{
+	background-color: #bba8d4;
+	height:50px;
+}
+.paraC12{
+	background-color: #66d8ff;
+	height:50px;
+}
+.paraC22{
+	background-color: #d6bbbb;
+}
+body{
+	background-color: #8acfb8;
+}
